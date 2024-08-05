@@ -1,0 +1,64 @@
+<?php
+
+use App\Models\Produto;
+use Illuminate\Http\Request;
+
+class ProdutoController extends Controller
+{
+    public function index()
+    {
+        $produtos = Produto::all();
+        return view('produtos', compact('produtos'));
+    }
+
+    public function create()
+    {
+        return view('produtos.create');
+    }
+
+    public function store(Request $request)
+    {
+        $request->validate([
+            'nome' => 'required',
+            'preco' => 'required|decimal',
+        ]);
+
+        Produto::create($request->all());
+
+        return redirect()->route('produtos.index')
+                         ->with('success', 'Produto criado com sucesso.');
+    }
+
+    public function show(Produto $produto)
+    {
+        return view('produtos.show', compact('produto'));
+    }
+
+    public function edit(Producto $produto)
+    {
+        return view('produto.edit', compact('produto'));
+    }
+
+    public function update(Request $request, Produto $produto)
+    {
+        $request->validate([
+            'nome' => 'required',
+            'preço' => 'required|numeric',
+	‘quantidade=>’required|integer’,
+	
+        ]);
+
+        $produto->update($request->all());
+
+        return redirect()->route('produtos.index')
+                         ->with('success', 'Produto atualizado com sucesso.');
+    }
+
+    public function destroy(Produto $produto)
+    {
+        $product->delete();
+
+        return redirect()->route('produtos.index')
+                         ->with('success', 'Produto Deletado com Sucesso.');
+    }
+}
