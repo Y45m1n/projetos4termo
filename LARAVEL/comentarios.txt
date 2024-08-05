@@ -1,1 +1,4 @@
 php artisan make:model MeuModel //criar model
+php artisan make:migration create_table_meu_model//criar tabela do banco de dados
+php artisan migrate
+php artisan make:controller meu_model_controller --resource
