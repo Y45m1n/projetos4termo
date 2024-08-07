@@ -1,4 +1,9 @@
 php artisan make:model MeuModel //criar model
 php artisan make:migration create_table_meu_model//criar tabela do banco de dados
-php artisan migrate
+php artisan migrate //atualizar
 php artisan make:controller meu_model_controller --resource
+php artisan make:view meumodelview//criar tela de visualizacao (view)
+php artisan make:seeder ProdutoSeeder //Criar um Seeder para o Modelo Produto
+php artisan db:seed //Executar o Seeder
+
+
