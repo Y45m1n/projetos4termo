@@ -1,0 +1,64 @@
+/* Define um fundo claro e uma fonte agradável para a página */
+body {
+    background-color: #f0f2f5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estiliza o contêiner do formulário */
+form {
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+/* Estiliza o título do formulário */
+h1 {
+    font-size: 28px;
+    color: #333333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Estiliza os campos de entrada */
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #dcdcdc;
+    border-radius: 8px;
+    font-size: 16px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Adiciona um efeito de foco nos campos de entrada */
+input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.2);
+    outline: none;
+}
+
+/* Estiliza o botão */
+button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 15px;
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Altera a cor do botão ao passar o mouse */
+button:hover {
+    background-color: #0056b3;
+}

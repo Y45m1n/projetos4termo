@@ -1,0 +1,57 @@
+/* Define o fundo da página e a fonte */
+body {
+    background-color: #f4f7f6;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estiliza o contêiner do formulário */
+.form-container {
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Estiliza o título do formulário */
+h1 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 600;
+}
+
+/* Estiliza os campos de entrada */
+input {
+    width: calc(100% - 24px);
+    margin: 10px 0;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+/* Estiliza o botão de adicionar */
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* Altera a cor do botão ao passar o mouse */
+button:hover {
+    background-color: #0056b3;
+}
