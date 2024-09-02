@@ -21,10 +21,10 @@
 <p><img src="img/Cronograma.png" width="1000px">
 
 ### RECURSOS:
-- Laravel Framework
-- PostgreSQL Database
+- React Framework
+- Node.js
+- MongoDB Database
 - Visual Studio Code
-- Pusher para notificações em tempo real
 - Excel (cronograma)
 - Miro (diagramas)
 - Git/GitHub
