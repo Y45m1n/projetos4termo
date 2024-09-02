@@ -1,4 +1,4 @@
-## ![TO DO LIST](https://img.icons8.com/ios-filled/50/000000/project-management.png) Gerenciamento de Projetos 
+## ![TO DO LIST](https://img.icons8.com/ios-filled/50/000000/project-management.png) TO DO LIST
 
 ### ESCOPO:
 - O objetivo do projeto é desenvolver uma aplicação web usando React e Node.Js de To-Do List que permita aos usuários criar, visualizar, editar e excluir tarefas. Afim que possa ser utilizada por seus colaboradores, ajudando os usuários a organizar suas tarefas de forma eficiente e segura.
