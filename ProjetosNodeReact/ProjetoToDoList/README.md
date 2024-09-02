@@ -18,7 +18,7 @@
 - O sistema deve melhorar a produtividade dos colaboradores em pelo menos 20%, medido por uma pesquisa de satisfação e análise de tempo gasto em tarefas.
 
 ### CRONOGRAMA:
-<p><img src="/img/Cronograma.png" width="1000px">
+<p><img src="img/Cronograma.png" width="1000px">
 
 ### RECURSOS:
 - Laravel Framework
