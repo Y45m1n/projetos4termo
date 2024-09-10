@@ -97,6 +97,9 @@ Para quem organiza eventos, oferecemos ferramentas práticas para criar, gerenci
 **Pag Inicial:**
 <p><img src="img/PrototipoBaixa.png" width="500px">
 
+**Dashboard Média:**
+<p><img src="img/DashboardColaborador.png" width="500px">
+
 ### PROTOTIPAGEM DE MÉDIA FIDELIDADE:
 
 ### PROTOTIPAGEM DE ALTA FIDELIDADE:
