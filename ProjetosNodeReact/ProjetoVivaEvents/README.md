@@ -30,7 +30,7 @@ Para quem organiza eventos, oferecemos ferramentas práticas para criar, gerenci
 
 - Facilitar o processo de criação, divulgação e gerenciamento de eventos.
 
-# Análise de Riscos do Projeto Viva Events
+# Análise de Riscos
 
 
 ## 1. Problemas Técnicos
@@ -81,4 +81,11 @@ Para quem organiza eventos, oferecemos ferramentas práticas para criar, gerenci
 
 
 ### CRONOGRAMA:
+
+### DIAGRAMA DE USO:
+
+### DIAGRAMA DE CLASSE:
+<p><img src="img/DiagramaClasse.png" width="1000px">
+
+### DIAGRAMA DE FLUXO:
 
