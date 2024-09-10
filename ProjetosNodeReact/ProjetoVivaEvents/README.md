@@ -85,7 +85,7 @@ Para quem organiza eventos, oferecemos ferramentas práticas para criar, gerenci
 ### DIAGRAMA DE USO:
 
 ### DIAGRAMA DE CLASSE:
-<p><img src="img/DiagramaClasse.png" width="100px">
+<p><img src="img/DiagramaClasse.png" width="900px">
 
 ### DIAGRAMA DE FLUXO:
 
