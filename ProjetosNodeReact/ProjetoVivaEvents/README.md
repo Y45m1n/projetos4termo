@@ -81,6 +81,7 @@ Para quem organiza eventos, oferecemos ferramentas práticas para criar, gerenci
 
 
 ### CRONOGRAMA:
+<p><img src="img/Cronograma.png" width="500px">
 
 ### DIAGRAMA DE USO:
 <p><img src="img/DiagramaUso.png" width="500px">
