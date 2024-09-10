@@ -1,4 +1,4 @@
-## ![VIVA EVENTS] VIVA EVENTS
+## VIVA EVENTS
 
 
 ### ESCOPO:
@@ -7,7 +7,7 @@ Para quem organiza eventos, oferecemos ferramentas práticas para criar, gerenci
 
 
 ### OBJETIVOS: 
--- Específicos:
+**Específicos:**
 
 - Desenvolver uma aplicação web para a empresa Viva Events que permita os colaboradores criarem e personalizarem seus eventos;
 - Cadastro e Login de visitantes;
@@ -15,18 +15,18 @@ Para quem organiza eventos, oferecemos ferramentas práticas para criar, gerenci
 - Permitir que os visitantes da página vejam os eventos e façam pesquisas por categoria, data e localização;
 - Permitir que os visitantes com login, possam se cadastrar nos eventos.
 
--- Mensuráveis:
+**Mensuráveis:**
 
 - Garantir que o sistema cadastre até 5 visitantes;
 - Garantir que o colaborador cadastre até 10 eventos de diferentes categorias;
 - Garantir que um visitante sem login não possa se inscrever em eventos;
 - Garantir que visitantes com login possam se inscrever em pelo menos 3 eventos.
 
--- Atingíveis:
+**Atingíveis:**
 
 - Utilizar frameworks e bibliotecas bem documentadas (como React, MongoDB, Node.Js, Express) para assegurar o cumprimento dos prazos e qualidade do código.
 
--- Relevantes:
+**Relevantes:**
 
 - Facilitar o processo de criação, divulgação e gerenciamento de eventos.
 
