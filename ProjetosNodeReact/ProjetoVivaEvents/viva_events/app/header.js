@@ -16,8 +16,8 @@ export default function Header() {
         />
       </div>
       <div className={styles.buttons}>
-        <a href="/login" className={styles.button}>Login / Registro</a>
-        <a href="/colaborador" className={styles.button}>Colaborador</a>
+        <a href="/loginuser" className={styles.button}>Login</a>
+        <a href="/registeruser" className={styles.button}>Cadastro</a>
       </div>
     </header>
   );
