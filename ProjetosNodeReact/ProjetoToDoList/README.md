@@ -41,7 +41,14 @@
 -  Mitigação: Um escopo claro ajuda a estabelecer expectativas realistas e a minimizar mudanças inesperadas, facilitando o controle de alterações.
 
 
+### MANUAL DE IDENTIDADE VISUAL:
 
+- A marca SENAI deve ser aplicada, preferencialmente, sobre fundo branco, tom que transmite clareza e equilibrio, além de valorizar as informações.
+
+- Logo:
+
+
+- Ao menos uma das cores primárias devem estar sempre presente nos layouts.
 
 
 

@@ -65,9 +65,9 @@ export default function Home() {
       <ul>
         {todos.map((todo) => (
           <li key={todo._id}>
-            {todo.title} - {todo.description} - {todo.status}
+            {todo.title} - {todo.completed? "Concluída" : "Pendente"}
             <button onClick={() => deleteTodo(todo._id)}>Excluir</button>
-        
+         <input type="checkbox" checked={todo.completed} onChange={() => updateTodo(todo._id,todo.completed)}/>
           </li>
         ))}
       </ul>
