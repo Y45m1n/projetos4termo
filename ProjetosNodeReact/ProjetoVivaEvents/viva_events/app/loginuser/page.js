@@ -11,7 +11,7 @@ export default function LoginUsuarioPage() {
 
   const handleLogin = async () => {
     // Envia a solicitação de login para a API
-    const response = await fetch('/api/usuarios/login', {
+    const response = await fetch('/api/auth/login', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -50,7 +50,7 @@ export default function LoginUsuarioPage() {
       />
       <button onClick={handleLogin}>Entrar</button>
       <p>
-        Não tem uma conta? <a href="/register-usuario">Registrar Usuário</a> ou <a href="/login-colaborador">Login Colaborador</a>
+        Não tem uma conta? <a href="/registeruser">Registrar Usuário</a> ou <a href="/login-colaborador">Login Colaborador</a>
       </p>
     </div>
   );

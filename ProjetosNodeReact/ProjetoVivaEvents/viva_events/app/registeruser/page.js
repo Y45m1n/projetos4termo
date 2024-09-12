@@ -4,25 +4,26 @@ import { useState } from 'react';
 import { useRouter } from 'next/navigation';
 
 export default function RegisterUsuarioPage() {
-  const [username, setUsername] = useState('');
+  const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState(null);
   const router = useRouter();
 
   const handleRegister = async () => {
-    const response = await fetch('/api/usuarios/register', {
+    const response = await fetch('/api/auth/register', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
       },
-      body: JSON.stringify({ username, email, password }),
+      body: JSON.stringify({ name, email, password }),
     });
 
     if (response.ok) {
-      router.push('/login');
+      router.push('/loginuser');
     } else {
-      setError('Erro ao registrar usuário');
+      const errorData = await response.json();
+      setError(errorData.message || 'Erro ao registrar usuário');
     }
   };
 
@@ -32,9 +33,9 @@ export default function RegisterUsuarioPage() {
       {error && <p style={{ color: 'red' }}>{error}</p>}
       <input
         type="text"
-        placeholder="Username"
-        value={username}
-        onChange={(e) => setUsername(e.target.value)}
+        placeholder="Nome"
+        value={name}
+        onChange={(e) => setName(e.target.value)}
       />
       <input
         type="email"
@@ -44,13 +45,13 @@ export default function RegisterUsuarioPage() {
       />
       <input
         type="password"
-        placeholder="Password"
+        placeholder="Senha"
         value={password}
         onChange={(e) => setPassword(e.target.value)}
       />
       <button onClick={handleRegister}>Registrar Usuário</button>
       <p>
-        Já tem uma conta? <a href="/login">Faça login</a>
+        Já tem uma conta? <a href="/loginuser">Faça login</a>
       </p>
     </div>
   );
