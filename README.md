@@ -94,8 +94,6 @@ Para quem organiza eventos, oferecemos ferramentas práticas para criar, gerenci
 <p><img src="img/DiagramaFluxo.png" width="500px">
 
 ### PROTOTIPAGEM DE BAIXA FIDELIDADE:
-
-**Pag Inicial:**
 <p><img src="img/PrototipoBaixa.png" width="500px">
 
 ### PROTOTIPAGEM DE MÉDIA FIDELIDADE:
