@@ -38,6 +38,7 @@ export default function Home() {
             <EventCard key={evento._id} evento={evento} />
           ))}
         </div>
+        <a href="/logincola" className={styles.button}>Login colaborador</a>
       </main>
     </div>
   );

@@ -25,7 +25,7 @@ export default function LoginUsuarioPage() {
       // Armazena o token no localStorage
       localStorage.setItem('token', token);
       // Redireciona para a página principal ou para a página de eventos
-      router.push('/eventos');
+      router.push('/');
     } else {
       // Define uma mensagem de erro se as credenciais forem inválidas
       setError('Credenciais inválidas');
@@ -50,7 +50,7 @@ export default function LoginUsuarioPage() {
       />
       <button onClick={handleLogin}>Entrar</button>
       <p>
-        Não tem uma conta? <a href="/registeruser">Registrar Usuário</a> ou <a href="/login-colaborador">Login Colaborador</a>
+        Não tem uma conta? <a href="/registeruser">Registrar Usuário</a>
       </p>
     </div>
   );

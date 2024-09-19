@@ -1,9 +1,8 @@
-// app/eventos/criar-eventos.js
-
+// app/eventos/criareventos.js
 'use client';
 
 import { useState } from 'react';
-import styles from './page.module.css'; // Certifique-se de que este arquivo CSS está no mesmo diretório
+import styles from '/projetos4termo/ProjetosNodeReact/ProjetoVivaEvents/viva_events/app/page.module.css'; // Certifique-se de que este arquivo CSS está no mesmo diretório
 
 export default function CriarEventoPage() {
   const [nome, setNome] = useState('');

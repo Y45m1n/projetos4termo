@@ -27,7 +27,7 @@ export default function EventosPage() {
   return (
     <div>
       <h1>Eventos</h1>
-      <a href="/criar-evento">Criar Novo Evento</a>
+      <a href="/criarevento">Criar Novo Evento</a>
       <ul>
         {eventos.map((evento) => (
           <li key={evento._id}>

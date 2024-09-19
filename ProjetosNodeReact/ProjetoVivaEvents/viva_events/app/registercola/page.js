@@ -4,9 +4,9 @@ import { useState } from 'react';
 import { useRouter } from 'next/navigation';
 
 export default function RegisterColaboradorPage() {
-  const [name, setName] = useState('');
+  const [nome, setName] = useState('');
   const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('');
+  const [senha, setPassword] = useState('');
   const [error, setError] = useState(null);
   const router = useRouter();
 
@@ -16,11 +16,11 @@ export default function RegisterColaboradorPage() {
       headers: {
         'Content-Type': 'application/json',
       },
-      body: JSON.stringify({ name, email, password }),
+      body: JSON.stringify({ nome, email, senha }),
     });
 
     if (response.ok) {
-      router.push('/login');
+      router.push('/logincola');
     } else {
       setError('Erro ao registrar colaborador');
     }
@@ -33,7 +33,7 @@ export default function RegisterColaboradorPage() {
       <input
         type="text"
         placeholder="Nome"
-        value={name}
+        value={nome}
         onChange={(e) => setName(e.target.value)}
       />
       <input
@@ -45,12 +45,12 @@ export default function RegisterColaboradorPage() {
       <input
         type="password"
         placeholder="Password"
-        value={password}
+        value={senha}
         onChange={(e) => setPassword(e.target.value)}
       />
       <button onClick={handleRegister}>Registrar Colaborador</button>
       <p>
-        Já tem uma conta? <a href="/login">Faça login</a>
+        Já tem uma conta? <a href="/logincola">Faça login</a>
       </p>
     </div>
   );
